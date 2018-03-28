@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13%;
+}
+
+.inner-box {
+  transition: box-shadow .5s;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inner-box:hover {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3), 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 300px;
+}
+
+.image-wrapper {
+  border: 1px solid black;
+  border-bottom: none;
+  height: 350px;
+  overflow: hidden;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+
+}
